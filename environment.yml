@@ -12,6 +12,8 @@ dependencies:
   - numpy
   - pandas
   - matplotlib
+  - matplotlib-scalebar
+  - contextily
   - folium
   - pystac-client
   - jupyterlab
