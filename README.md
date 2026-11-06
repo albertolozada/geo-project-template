@@ -1,10 +1,10 @@
-# PROJECT TITLE
+# Geo Project Template
 
 <!--
 How to use this template:
 1. Click "Use this template" > "Create a new repository" on GitHub.
-2. Replace every UPPERCASE placeholder in this README (search for "REPO_NAME" and "PROJECT TITLE").
-3. Replace outputs/maps/preview.png with the main map of the project.
+2. Replace the title above with the project title, and every UPPERCASE placeholder in this README (search for "REPO_NAME").
+3. Replace outputs/maps/preview.png with the main map of the project (src/maps.py > plot_aoi_map).
 4. Delete this comment block.
 -->
 
@@ -13,7 +13,7 @@ How to use this template:
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/albertolozada/REPO_NAME/blob/main/notebooks/01_analysis.ipynb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-**One-sentence summary of the question and the answer.**
+**Template for reproducible remote sensing and GIS projects: CRS checks, location map, Colab-ready notebook and a standard README.**
 
 ## Question
 
