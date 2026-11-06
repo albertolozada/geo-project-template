@@ -3,14 +3,14 @@
 <!--
 How to use this template:
 1. Click "Use this template" > "Create a new repository" on GitHub.
-2. Replace the title above with the project title, and every UPPERCASE placeholder in this README (search for "REPO_NAME").
+2. Replace the title above with the project title, every UPPERCASE placeholder, and "geo-project-template" with the new repository name (Colab badge, "Reproduce it" section and the REPO variable in notebooks/01_analysis.ipynb).
 3. Replace outputs/maps/preview.png with the main map of the project (src/maps.py > plot_aoi_map).
 4. Delete this comment block.
 -->
 
 ![Main result](outputs/maps/preview.png)
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/albertolozada/REPO_NAME/blob/main/notebooks/01_analysis.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/albertolozada/geo-project-template/blob/main/notebooks/01_analysis.ipynb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 **Template for reproducible remote sensing and GIS projects: CRS checks, location map, Colab-ready notebook and a standard README.**
@@ -57,8 +57,8 @@ Main numbers, the main map and a short interpretation.
 **On your computer:**
 
 ```bash
-git clone https://github.com/albertolozada/REPO_NAME.git
-cd REPO_NAME
+git clone https://github.com/albertolozada/geo-project-template.git
+cd geo-project-template
 conda env create -f environment.yml
 conda activate geo-project
 jupyter lab notebooks/01_analysis.ipynb
